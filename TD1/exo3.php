@@ -14,10 +14,10 @@
             <?php } ?>
         </tr>
         <?php for($i=2; $i<10; $i++){ ?>
-        <tr>
+        <tr <?php echo $i%2==0 ? "bgcolor='pink'" : "bgcolor='brown'"; ?>>
             <td bgcolor="orange"><?php echo $i; ?></td>
             <?php for($j=2; $j<10; $j++){ ?>
-            <td <?php echo $j%2==0 ? "bgcolor='pink'" : "bgcolor='brown'"; ?>><?php echo $i * $j; ?></td>
+            <td><?php echo $i * $j; ?></td>
             <?php } ?>
         </tr>
         <?php } ?>
