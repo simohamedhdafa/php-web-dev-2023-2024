@@ -1,5 +1,5 @@
 # php-web-dev-2023-2024
-This repo contains the different realisations we worked on for the PHP Web Dev class of 2023/2024 at Junia Maroc
+This repo contains the different realisations we worked on for the PHP Web Dev class of 2023/2024 at Campus de Rabat
 <table>
     <tr><td>TD1G1</td><td>TD1G2</td></tr>
     <tr><td>Adam</td><td>Enzo</td></tr>
