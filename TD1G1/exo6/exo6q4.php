@@ -1,4 +1,18 @@
 <?php 
+function afficher_tab($tab, $nom){
+    echo "tableau $$nom :</br>";
+    echo '<pre>';
+    print_r($tab);
+    echo '</pre>';
+    //die();
+}
+
+//afficher_tab($_GET, '_GET');
+
+$cond = array();
+foreach($_GET as $key => $val){
+    $cond[$key] = $val;
+}
 
 $personnes = array(
     'mdupond'   => array('prenom' => 'Martin', 'nom'    => 'Dupond', 'age'  => 25, 'ville' => 'Paris'),
@@ -8,14 +22,6 @@ $personnes = array(
     'email'     => array('prenom' => 'Emilie', 'nom'    => 'Ailta', 'age'   => 46, 'ville' => 'Villetaneuse'),
     'dask'      => array('prenom' => 'Damien','nom'     => 'Askier','age'   => 7, 'ville'  => 'Villetaneuse')
 );
-
-function afficher_tab($tab, $nom){
-    echo "tableau $$nom :</br>";
-    echo '<pre>';
-    print_r($tab);
-    echo '</pre>';
-    //die();
-}
 
 // q3 
 function csv2table($f, $cond){
@@ -33,10 +39,7 @@ function csv2table($f, $cond){
         for($i=1; $i<=$taille_csv; $i++){
             $line = str_getcsv($lines[$i]);
             // conditions
-            var_dump(current(array_keys($cond))); // 'ville'
-            var_dump($col[$key2index_mapping[current(array_keys($cond))]]); // 1
-            
-            if(current(array_keys($cond))==$col[$key2index_mapping[current(array_keys($cond))]]){
+            if($cond[current(array_keys($cond))] == $line[$key2index_mapping[current(array_keys($cond))]]){
                 $table .= '<tr>';
                 foreach($line as $col)
                     $table .= "<td>$col</td>";
@@ -60,7 +63,7 @@ function csv2table($f, $cond){
 <body>
     <h1>Correction TD1 exercice 6</h1>
     <h3>Question 3:</h3>
-    <?php echo csv2table('personnes.csv', ['ville'=>'Paris', 'age'=>'30']); ?>
+    <?php echo csv2table('personnes.csv', $cond); ?>
 </body>
 </html>
 
