@@ -1,17 +1,28 @@
 # php-web-dev-2023-2024
 This repo contains the different realisations we worked on for the PHP Web Dev class of 2023/2024 at Campus de Rabat
-<table>
-    <tr><td>TD1G1</td><td>TD1G2</td></tr>
-    <tr><td>Adam</td><td>Enzo</td></tr>
-    <tr><td>Meryem</td><td>Abderrahmane</td></tr>
-    <tr><td>Hidaya</td><td>Ilyas</td></tr>
-    <tr><td>Essemlali</td><td>Reda</td></tr>
-    <tr><td>Aymane</td><td>Malak</td></tr>
-    <tr><td>Salah</td><td>Zakaria</td></tr>
-    <tr><td>Maroua</td><td>Salim</td></tr>
-    <tr><td>Hiba</td><td>Rpmaissae</td></tr>
-    <tr><td>Reda</td><td>Mrabet</td></tr>
-    <tr><td>Amine</td><td>Younes</td></tr>
-    <tr><td>Riyad</td><td>Amira</td></tr>
-    <tr><td>-</td><td>Yassir</td></tr>
-</table>
+Prenom	Nom	groupe	groupe de TP
+Adam 	Moukhchani	1	A
+Salah eddine 	Boudi	1	A
+Maryem 	Daoui 	1	A
+Maroua 	Bouyadda	1	B
+Reda 	Chafik	1	B
+Aymane  	Ait baaddi 	1	B
+Ahmed Amine	Belhaj	1	C
+Hidaya 	El Mamouni 	1	C
+Mohamed Amine	Essemlali	1	D
+Riyad 	Karimi	1	D
+Hiba 	Ben cheikh 	1	D
+Enzo 	Bruce	2	A
+Younes 	Berrada	2	A
+Romaissaa 	Laafou	2	A
+Mohamed 	MRABET	2	B
+Amira 	Hidaoui	2	B
+Zakaria 	Kabti	2	B
+Malak	El Hamydy 	2	C
+Yasser 	Naddouri	2	C
+Salim 	Tazi	2	C
+Reda  	Sabir	2	D
+abderrahmane 	moussa	2	D
+Ilyas 	El mountacir	2	D
+![image](https://github.com/simohamedhdafa/php-web-dev-2023-2024/assets/16125119/34a5a425-45f0-49bb-a10f-9cfa7e2d35d5)
+
