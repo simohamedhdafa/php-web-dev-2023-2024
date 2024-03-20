@@ -6,11 +6,8 @@ function afficher_tab($tab){
     echo '</pre>';
 }
 
-// attention potentiel erreur si fichier n existe pas
-$movies = file("bd/imdb_top_1000.csv");  
-// metadata : les noms de colonnes
+$movies = file("bd/imdb_top_1000.csv"); // attention potentiel erreur si fichier n existe pas 
 $col_names = array_shift($movies);
-// les données : les éléments sont separés par virgule
 $col_names = str_getcsv($col_names);
 
 //echo count($movies);
@@ -35,17 +32,20 @@ for($i=0; $i<10; $i++){
     <div class="container">
         <h1>Les 1000 meilleurs films</h1>
         <div class="content">
-            <?php /* code boucle */ ?>
+            <?php foreach($movies as $movie){ $movie = str_getcsv($movie); ?>
             <section>
-                <div class="poster"><img src="#" alt="file not found"></div>
+                <?php $image = @is_array(getimagesize($movie[0])) ? true : false; ?>
+                <div class="poster"><img src="<?php echo $image ? $movie[0] : "css/image/inf_404.jpg"; ?>" ></div>
                 <div class="carte-content">
-                    <div class="movie-title"></div>
-                    <div class="stars"></div>
-                    <p></p> 
-                    <div class="genre"></div>                   
+                    <div class="movie-title"><?php echo $movie[1]; ?></div>
+                    <div class="stars"><?php echo $movie[6]; ?></div>
+                    <p>
+                    <?php echo "Directed by $movie[9], played by $movie[10], $movie[11], $movie[12] and $movie[13]"; ?>
+                    </p> 
+                    <div class="genre"><?php echo $movie[5]; ?></div>                   
                 </div>
             </section>
-            <?php /* fin boucle */ ?>
+            <?php } ?>
         </div>
     </div>
 </body>
