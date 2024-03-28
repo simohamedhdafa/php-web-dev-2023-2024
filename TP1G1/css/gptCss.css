@@ -1,0 +1,78 @@
+
+h1 {
+    text-align: center;
+}
+
+.stars {
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px; /* Largeur maximale du conteneur */
+    margin: 0 auto; /* Centre le conteneur */
+    padding: 20px; /* Marge intérieure */
+}
+
+.content {
+    display: flex; /* Utilisation de flexbox pour la mise en page flexible */
+    flex-wrap: wrap; /* Permet aux éléments de s'enrouler sur plusieurs lignes */
+    justify-content: space-between; /* Répartition égale des éléments */
+}
+
+section {
+    background: rgb(202, 201, 233);
+    border: 1px solid black;
+    border-radius: 5px;
+    width: calc(25% - 20px); /* 4 films par ligne pour les grands écrans */
+    margin-bottom: 20px; /* Marge inférieure entre les sections */
+}
+
+.center {
+    text-align: center;
+  }
+  
+.pagination {
+    display: inline-block;
+}
+  
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+  
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+  
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+@media screen and (max-width: 992px) {
+    section {
+        width: calc(33.33% - 20px); /* 3 films par ligne pour les écrans moyens et tablettes */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        width: calc(50% - 20px); /* 2 films par ligne pour les smartphones en mode paysage */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    section {
+        width: calc(100% - 20px); /* 1 film par ligne pour les smartphones en mode portrait */
+    }
+}
+
+.poster img {
+    max-width: 100%; /* Image à 100% de la largeur du conteneur */
+    height: auto; /* Hauteur automatique pour maintenir le ratio */
+    float: right;
+}
