@@ -20,18 +20,14 @@ if(isset($_GET['cp']) and !empty($_GET['cp']))
 else
     $cp = 1;
 
+// vars 
+$stylesheet = "css/gptCss.css";
+$page_title = "Meilleurs films page cp";
+// entete html 
+require_once "inc/head.inc.php";
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/gptCss.css">
-    <title>1000 meilleurs films depuis IMDB</title>
-</head>
-<body>
-    <div class="container">
+<div class="container">
         <h1>Les 1000 meilleurs films</h1>
         <div class="content">
             <?php //die("ici = $cp"); ?>
@@ -71,5 +67,8 @@ else
             </div>
         </div>
     </div>
-</body>
-</html>
+
+<?php 
+require_once "inc/pied.inc.php";
+?>
+
