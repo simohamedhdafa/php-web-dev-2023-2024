@@ -1,0 +1,28 @@
+1- Echange de données entre l'Utilisateur final et l'Application -> l'utilisateur vers l'appli
+	q. depuis où les scripts PHP peuvent recevoir les données qu'ils manipulent ? 
+	r. fichier (csv, txt, etc.), paramètres d'url, ..., et -> les FORMULAIRES <- 
+	principe d'utilisation d'un formulaire : envoyer des données depuis une page html vers un script PHP
+2- Un formulaire est un élément HTML : tag <form>
+3- Syntaxe : <form attr1=val1 attr2=val2 ...> ... </form>
+4- Principaux attributs : action et method
+	action : chemin du fichier PHP contenant un script qui manipule les données du form
+	method : methode http de transmission des données (GET, POST)
+5- Principaux composants d'un formulaire
+	champ de texte
+	champ de daisie de mot de passe
+	bouton radio (choix unique)
+	check-box (choix multiple)
+	bouton select (choix unique, ou multiple)
+	bouton de selection de fichier
+	bouton d'envoie, réinitialisation
+6- Support de transmission des données : superglobales PHP
+	$_GET['value_of_attr_name'] or $_POST['value_of_attr_name']
+	methode GET et paramètre d'url
+	quand utiliser POST aulieu de GET
+7- Bonnes pratiques : vérification -> validation -> utilisation des données du formulaire
+	isset(), empty(), ctype_alpha() ...
+	tant que toutes les données obligatoires ne soient pas validées, (avant l'utilisation)
+		1 rediriger l'utilisateur vers le formulaire, 
+		2 recharger le avec la version récente des données,
+		3 afficher des messages/alertes/info adéquats pour permettre la correction 
+8- 
