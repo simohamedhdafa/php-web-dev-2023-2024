@@ -1,0 +1,74 @@
+/* Styles globaux */
+body {
+    font-family: Arial, sans-serif; /* Police sobre */
+    background-color: #f4f4f4; /* Couleur de fond légère */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Hauteur complète de la vue */
+}
+
+.container {
+    background: white; /* Fond blanc pour le contenu */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre discrète */
+    border-radius: 5px; /* Bordures légèrement arrondies */
+    width: 300px; /* Largeur fixe pour le formulaire et le tableau */
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"], input[type="submit"] {
+    padding: 8px;
+    font-size: 16px; /* Taille de police confortable */
+    border: 1px solid #ddd; /* Bordure discrète */
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #5C67F2; /* Couleur de bouton élégante */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #4048F0; /* Changement de couleur au survol */
+}
+
+table {
+    width: 100%; /* Pleine largeur dans le conteneur */
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #ddd; /* Bordure des cellules */
+    text-align: center;
+    padding: 8px;
+}
+
+.error {
+    color: red; /* Messages d'erreur en rouge */
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.alert {
+    background-color: #FFA500; /* Fond orange pour l'alerte */
+    color: #fff; /* Texte blanc pour contraste */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px; /* Marge en bas pour l'espace */
+}
