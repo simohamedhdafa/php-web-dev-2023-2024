@@ -1,0 +1,24 @@
+Access denied: [2024-05-06 09:29:19] - IP: ::1, Session: 3oe2k9a5iootpcq2rfrh3uivdv, URL: /Exercice4/authentification.php, Params: , Referrer: none
+Access denied: [2024-05-06 09:31:31] - IP: ::1, Session: 3oe2k9a5iootpcq2rfrh3uivdv, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-06 09:33:31] - IP: ::1, Session: 3oe2k9a5iootpcq2rfrh3uivdv, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-06 09:33:50] - IP: ::1, Session: 3oe2k9a5iootpcq2rfrh3uivdv, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-06 10:01:19] - IP: ::1, Session: 1c5hhk6lblgu9atta19j99p9b4, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-06 10:01:42] - IP: ::1, Session: 1c5hhk6lblgu9atta19j99p9b4, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-06 10:04:15] - IP: ::1, Session: 1c5hhk6lblgu9atta19j99p9b4, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-06 10:05:59] - IP: ::1, Session: 1c5hhk6lblgu9atta19j99p9b4, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-06 13:41:51] - IP: ::1, Session: mc4l2fvvad6fdvebeaeev5f7ri, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-06 13:42:34] - IP: ::1, Session: mc4l2fvvad6fdvebeaeev5f7ri, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-06 14:11:27] - IP: ::1, Session: 6osbaq7231rl9sl0v6jqh1ohin, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-06 14:16:05] - IP: ::1, Session: mph6pt813mo8oj91gubmg44hvp, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-06 14:16:22] - IP: ::1, Session: mph6pt813mo8oj91gubmg44hvp, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-06 14:16:51] - IP: ::1, Session: mph6pt813mo8oj91gubmg44hvp, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-06 14:43:17] - IP: ::1, Session: hrp9lpjgfc2q5e9tsf69qjn8t4, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-06 15:37:43] - IP: ::1, Session: c2ja2n59vf618jgnj42cpui0ml, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-06 15:47:12] - IP: ::1, Session: j72m2p3si23hbq1l4nqf12gr3m, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-06 16:04:41] - IP: ::1, Session: pnl0h9udvhcpi9peor2pv401vh, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-06 16:04:58] - IP: ::1, Session: pnl0h9udvhcpi9peor2pv401vh, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-06 16:06:23] - IP: ::1, Session: pnl0h9udvhcpi9peor2pv401vh, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-06 16:06:39] - IP: ::1, Session: pnl0h9udvhcpi9peor2pv401vh, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-06 16:09:35] - IP: ::1, Session: pnl0h9udvhcpi9peor2pv401vh, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-06 16:11:18] - IP: ::1, Session: tvfs1uqnjmdgm5svm072vlhrp3, URL: , Params: , Referrer: 
+Identifiants invalides: [2024-05-07 10:20:51] - IP: ::1, Session: uvmci978p2mtstunoehpvnud0c, URL: , Params: , Referrer: 

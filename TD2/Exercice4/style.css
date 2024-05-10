@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-top: 50px;
+}
+
+form {
+    margin: 20px auto;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 22px); /* Réduire la largeur pour tenir compte des bordures */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+p {
+    color: #666;
+    margin-top: 20px;
+}
+
+.debug {
+    background-color: #f8f9fa; /* Couleur de fond légère pour une meilleure lisibilité */
+    border: 1px solid #007bff; /* Bordure bleue pour distinguer le bloc de débogage */
+    padding: 15px; /* Espacement à l'intérieur du bloc pour ne pas coller le texte aux bords */
+    margin: 20px; /* Marge externe pour ne pas coller le bloc aux autres éléments */
+    color: #333; /* Couleur du texte */
+    font-family: monospace; /* Style de police pour les données structurées */
+    overflow: auto; /* Ajoute une barre de défilement si le contenu déborde */
+}
+
+.debug pre {
+    white-space: pre-wrap; /* Garde le formatage des espaces et des retours à la ligne */
+    word-wrap: break-word; /* Empêche le texte de sortir du bloc */
+}
+
+.menu {
+    background-color: #333; /* Couleur de fond du menu */
+    padding: 10px 0; /* Espacement interne */
+}
+
+.menu ul {
+    list-style-type: none; /* Supprimer les puces */
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block; /* Afficher les éléments en ligne */
+    margin-right: 20px; /* Marge à droite entre les éléments */
+}
+
+.menu ul li {
+    display: inline; /* Display menu items horizontally */
+}
+
+.menu li:last-child {
+    margin-right: 0; /* Supprimer la marge à droite du dernier élément */
+}
+
+.menu a {
+    color: #fff; /* Couleur du texte */
+    text-decoration: none; /* Supprimer le soulignement du lien */
+    padding: 5px 10px; /* Espacement interne */
+    border-radius: 5px; /* Coins arrondis */
+}
+
+.menu a:hover {
+    background-color: #555; /* Couleur de fond au survol */
+}
+
+.menu ul li a {
+    color: #fff; /* Text color of menu items */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 20px; /* Add padding to the links */
+}
+
+.menu ul li a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
+.logout-btn {
+    background-color: #f00; /* Background color of logout button */
+    color: #fff; /* Text color of logout button */
+    padding: 10px 20px; /* Add padding to the logout button */
+}
+
+.logout-btn:hover {
+    background-color: #d00; /* Background color of logout button on hover */
+}
