@@ -26,3 +26,8 @@
 		2 recharger le avec la version récente des données,
 		3 afficher des messages/alertes/info adéquats pour permettre la correction 
 8- 
+
+select - radio - checkbox
+https://developer.mozilla.org/fr/docs/Web/HTML/Element/select
+https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/radio
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox
